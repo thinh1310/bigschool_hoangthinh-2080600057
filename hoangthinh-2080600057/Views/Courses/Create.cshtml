@@ -1,0 +1,22 @@
+﻿@model hoangthinh_2080600057.ViewModels.CourseViewModel
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+<from>
+    <div class="from-group">
+        @Html.LabelFor(m => m.place)
+        @Html.TextBoxFor(m => m.place, new { @class = "from-control" })
+    </div>
+    <div class=" form-group">
+        @Html.LabelFor(m.=>Date)
+        @Html.LabelFor(m => m.Date,new { @class = "form-control" })
+    </div>
+    <div class=" from-group"></div>
+    <div class=" from-group"></div>
+    <div class=" from-group"></div>
+    <div class=" from-group"></div>
+</from>
+
